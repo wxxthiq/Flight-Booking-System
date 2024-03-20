@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Account Details</title>
+</head>
+
+<body>
+    <h4>Account Details</h4>
+    <form method="POST">
+    <fieldset>
+        <table>
+            <thead>
+                <tr><caption>Personal Details</caption></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label>Name:</label></td>
+                    <td><input type="text" placeholder="Full name as per travel document"></td>
+                </tr>
+                <tr>
+                    <td><label>Phone Number:</label></td>
+                    <td><input type="tel" placeholder="Eg. +60145578985"></td>
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="email" placeholder="Eg. smith.john@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td>
+                        <input type="radio" value="M">Male
+                        <input type="radio" value="F">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth:</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Occupation:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    <fieldset>
+        <table>
+            <thead>
+                <tr><caption>Card Details (Optional)</caption></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label>Card holder name:</label></td>
+                    <td><input type="text" placeholder="Full name as on card"></td>
+                </tr>
+                <tr>
+                    <td><label>Card number:</label></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><label>Card CVV:</label></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><label>Card expiry date:</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Card bank issuer:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    <fieldset>
+        <table>
+            <thead>
+                <tr><caption>Travel Document (Optional)</caption></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label>Travel document type:</label></td>
+                    <td>
+                        <select>
+                            <option value="0">Select</option>
+                            <option value="1">Passport</option>
+                            <option value="2">National ID</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Travel document number:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Travel document issuance country:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Travel document expiry date:</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    <div>
+        <input type="submit" value="Save">
+        <button>Cancel</button>
+        <button>Edit</button>
+    </div>
+    </form>
+</body>
+
+</html>

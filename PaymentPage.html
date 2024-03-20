@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Payment Details</title>
+</head>
+
+<body>
+    <div>
+        <table>
+            <tr>
+                <caption>Passenger Details</caption>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Passenger name</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Passenger email</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Passenger phone number</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Passenger nationality</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Travel document number</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Travel document issuance country</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr><caption>Flight Details</caption></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Flight number</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Departure</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Arrival</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Ticket class</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Ticket number</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Seat</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Meal</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Luggage</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <caption>Special Services</caption>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Services name and details</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <label>Ticket Fare: </label>
+        <p>None Changeable/Refundable</p>
+        <p>Read Our Cancellation/Refund Policy</p>
+    </div>
+    <div>
+    <form method="POST">
+    <div>
+        <fieldset>
+            <table>
+                <thead>
+                    <tr><caption>Saved Cards</caption></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="radio" value="card_number">Card number</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" value="card_number">Card number</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" value="card_number">Card number</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" value="card_number">Card number</td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </div>
+    <p>Or</p>
+    <div>
+        <fieldset>
+            <table>
+                <thead>
+                    <tr><caption>Add New Card</caption></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label>Card holder name:</label></td>
+                        <td><input type="text" placeholder="Full name as on card"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Card number:</label></td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Card CVV:</label></td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Card expiry date:</label></td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Card bank issuer:</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="checkbox" value="1">Save Card<br>
+        </fieldset>
+    </div>
+    <div>
+        <input type="submit" value="Submit Payment">
+        <button>Cancel</button>
+    </div>
+    </form>
+    </div>
+</body>
